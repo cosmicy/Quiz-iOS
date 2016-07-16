@@ -30,11 +30,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Upg-ye-kTe">
-                                <rect key="frame" x="277" y="70" width="46" height="30"/>
+                                <rect key="frame" x="245" y="70" width="111" height="30"/>
                                 <state key="normal" title="Next Question"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="da1-4b-SBE">
-                                <rect key="frame" x="277" y="219" width="46" height="30"/>
+                                <rect key="frame" x="237" y="219" width="127" height="30"/>
                                 <state key="normal" title="Show Answer"/>
                             </button>
                         </subviews>
@@ -43,6 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="367" y="429"/>
         </scene>
     </scenes>
 </document>
