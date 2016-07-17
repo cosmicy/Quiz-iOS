@@ -17,28 +17,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egK-YN-6FX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egK-YN-6FX">
                                 <rect key="frame" x="279" y="41" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cns-MS-y0L">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cns-MS-y0L">
                                 <rect key="frame" x="279" y="190" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Upg-ye-kTe">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Upg-ye-kTe">
                                 <rect key="frame" x="245" y="70" width="111" height="30"/>
                                 <state key="normal" title="Next Question"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="da1-4b-SBE">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="da1-4b-SBE">
                                 <rect key="frame" x="237" y="219" width="127" height="30"/>
-                                <state key="normal" title="Show Answer"/>
+                                <state key="normal" title="Show Answer111"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Cns-MS-y0L" firstAttribute="top" secondItem="Upg-ye-kTe" secondAttribute="bottom" constant="90" id="2K6-nt-unO"/>
+                            <constraint firstItem="da1-4b-SBE" firstAttribute="centerX" secondItem="Upg-ye-kTe" secondAttribute="centerX" id="5vQ-Fg-G0W"/>
+                            <constraint firstItem="Cns-MS-y0L" firstAttribute="centerX" secondItem="Upg-ye-kTe" secondAttribute="centerX" id="6bJ-JP-5fw"/>
+                            <constraint firstItem="Cns-MS-y0L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DcO-qa-0hd"/>
+                            <constraint firstItem="egK-YN-6FX" firstAttribute="centerX" secondItem="Upg-ye-kTe" secondAttribute="centerX" id="E37-hl-7gY"/>
+                            <constraint firstItem="egK-YN-6FX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pbx-Wh-fXm"/>
+                            <constraint firstItem="da1-4b-SBE" firstAttribute="top" secondItem="Cns-MS-y0L" secondAttribute="bottom" constant="8" id="Y66-IG-aoB"/>
+                            <constraint firstItem="Upg-ye-kTe" firstAttribute="top" secondItem="egK-YN-6FX" secondAttribute="bottom" constant="8" id="i3p-7X-FWl"/>
+                            <constraint firstItem="egK-YN-6FX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="21" id="mLr-J7-uXX"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
