@@ -51,6 +51,10 @@
                             <constraint firstItem="egK-YN-6FX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="21" id="mLr-J7-uXX"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="Cns-MS-y0L" id="Cef-71-xb1"/>
+                        <outlet property="questionLabel" destination="egK-YN-6FX" id="qNo-nX-v4t"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
