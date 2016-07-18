@@ -12,21 +12,28 @@ class ViewController: UIViewController {
     @IBOutlet var questionLabel:UILabel!
     @IBOutlet var answerLabel:UILabel!
     
-    let question : [String] = ["q1sdf","q2flskd","q3ldskjf"]
-    let answer: [String] = ["123", "456", "789"]
-    var currentQuestionIndex : Int = -1
+    let questions : [String] = ["q1sdf","q2flskd","q3ldskjf"]
+    let answers: [String] = ["123", "456", "789"]
+    var currentQuestionIndex : Int = 0
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        questionLabel.text = questions[currentQuestionIndex]
+    }
     
     
     @IBAction func showNextQuestion(sender: AnyObject) {
         currentQuestionIndex += 1
-        if currentQuestionIndex == 3 {
+        if currentQuestionIndex == questions.count {
             currentQuestionIndex = 0
         }
-        questionLabel.text = question[currentQuestionIndex]
+        questionLabel.text = questions[currentQuestionIndex]
+        answerLabel.text = "???"
     }
     
     @IBAction func showAnswer(sender: AnyObject) {
-        answerLabel.text = answer[currentQuestionIndex]
+        let answer: String = answers[currentQuestionIndex]
+        answerLabel.text = answer
     }
     
 }
