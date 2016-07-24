@@ -17,3 +17,7 @@ var arrayOfInts2: [Int]
 var dictOfCapitalsByCountry: Dictionary<String,String>
 var dictOfCapitalsByCountry2: [String:String]
 
+//set
+var winningLotteryNumbers: Set<Int>
+
+
