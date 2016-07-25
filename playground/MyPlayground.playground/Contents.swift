@@ -20,4 +20,14 @@ var dictOfCapitalsByCountry2: [String:String]
 //set
 var winningLotteryNumbers: Set<Int>
 
+let number = 42
+let fmStation = 91.1
 
+//array
+let countingUp = ["one","two"]
+
+//dict
+let nameByParkingSpace = [13: "Alice", 27: "Bob"]
+
+//array index
+let secondElement = countingUp[1]
